@@ -17,7 +17,7 @@ variable "architecture" {
 variable "runtime" {
   type        = string
   description = "Python runtime version"
-  default     = "python3.9"  
+  default     = "python3.9"
 
   validation {
     condition     = contains(["python3.7", "python3.8", "python3.9"], var.runtime)

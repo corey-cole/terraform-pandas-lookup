@@ -12,5 +12,5 @@ variable "architecture" {
 variable "runtime" {
   type        = string
   description = "Python runtime version"
-  default     = "python3.9"  
+  default     = "python3.9"
 }

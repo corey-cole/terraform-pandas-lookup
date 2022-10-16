@@ -3,5 +3,7 @@ module "pandas_sdk_layer" {
   source = "../../"
   //source = "github.com/corey-cole/terraform-pandas-lookup"
 
-  region = var.region
+  region       = var.region
+  architecture = var.architecture
+  runtime      = var.runtime
 }
